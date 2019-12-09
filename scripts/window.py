@@ -22,7 +22,7 @@ class Window:
     def draw_game(self):
         self.main_surface.fill(pygame.Color('gray'))
         self.draw_map()
-        self.main_surface.blit(consts.S_PLAYER_FRONT, translate_coords((0, 0), 64))
+     #   self.main_surface.blit(consts.S_PLAYER_FRONT, translate_coords((0, 0), 64))
 
     def draw_map(self):
         for x in range(len(self.map)):
